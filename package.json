@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Constrix-CS-1-6/Constrix-webpage#readme",
   "devDependencies": {
+    "daisyui": "^3.1.7",
     "tailwindcss": "^3.3.2"
   }
 }
