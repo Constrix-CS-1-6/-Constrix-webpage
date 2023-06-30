@@ -1,0 +1,23 @@
+{
+  "name": "constrix-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Constrix-CS-1-6/Constrix-webpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Constrix-CS-1-6/Constrix-webpage/issues"
+  },
+  "homepage": "https://github.com/Constrix-CS-1-6/Constrix-webpage#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
