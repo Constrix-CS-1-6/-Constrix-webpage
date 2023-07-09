@@ -50,16 +50,16 @@
 <!-- hero main content -->
 
 <div class="hero min-h-screen bg-base-200">
-    <div class="hero-content text-center">
+    <div class="hero-content text-center px-8">
         <div class="max-w-md">
             <h1 class="text-5xl font-bold">Constrix</h1>
             <p class="py-6">We are a group of CS 1.6 enthusiasts who share a love for the game. Our goal is to provide an exceptional gaming experience for players in Asia.
             </p>
 
-            <div class="grid grid-rows-2 grid-flow-col gap-4">
+            <div class="grid grid-cols2 tablet:grid-cols-1 laptop:grid-cols-1 desktop:grid-cols-2 gap-4">
 
                 <!-- Open the modal using ID.showModal() method -->
-                <button class="btn btn-accent ml-5" onclick="my_modal_1.showModal()">Forum</button>
+                <button class="btn btn-accent" onclick="my_modal_1.showModal()">Forum</button>
                 <dialog id="my_modal_1" class="modal">
                     <form method="dialog" class="modal-box">
                         <h2 class="text-3xl mb-5 font-bold">Forum community</h2>
@@ -73,7 +73,7 @@
                 </dialog>
 
                 <!-- Open the modal using ID.showModal() method -->
-                <button class="btn btn-accent ml-5" onclick="my_modal_2.showModal()">Discord</button>
+                <button class="btn btn-accent" onclick="my_modal_2.showModal()">Discord</button>
                 <dialog id="my_modal_2" class="modal">
                     <form method="dialog" class="modal-box">
                         <h2 class="text-3xl mb-5 font-bold">Discord server</h2>
@@ -87,7 +87,7 @@
                 </dialog>
 
                 <!-- Open the modal using ID.showModal() method -->
-                <button class="btn btn-accent ml-5" onclick="my_modal_3.showModal()">Server</button>
+                <button class="btn btn-accent" onclick="my_modal_3.showModal()">Server</button>
                 <dialog id="my_modal_3" class="modal">
                     <form method="dialog" class="modal-box">
                         <h2 class="text-3xl mb-5 font-bold">Counter-Strike 1.6 Server</h2>
@@ -100,7 +100,7 @@
                 </dialog>
 
                 <!-- Open the modal using ID.showModal() method -->
-                <button class="btn btn-accent ml-5" onclick="my_modal_4.showModal()">Github</button>
+                <button class="btn btn-accent" onclick="my_modal_4.showModal()">Github</button>
                 <dialog id="my_modal_4" class="modal">
                     <form method="dialog" class="modal-box">
                         <h2 class="text-3xl mb-5 font-bold">Github Source code</h2>

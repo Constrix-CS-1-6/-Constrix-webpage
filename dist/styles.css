@@ -734,12 +734,6 @@ html {
   }
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
@@ -749,12 +743,6 @@ html {
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
   }
 }
 
@@ -4449,6 +4437,11 @@ details.collapse summary::-webkit-details-marker {
   padding-right: 0.25rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -4643,12 +4636,32 @@ details.collapse summary::-webkit-details-marker {
   }
 }
 
-@media (min-width: 768px) {
-  .md\:h-6 {
-    height: 1.5rem;
+@media (min-width: 640px) {
+  .tablet\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:w-6 {
-    width: 1.5rem;
+  .tablet\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .laptop\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .laptop\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .desktop\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
